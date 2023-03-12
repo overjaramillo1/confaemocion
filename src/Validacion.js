@@ -13,7 +13,7 @@ export default function Validacion() {
     var strImage = imageSrc.replace(/^data:image\/[a-z]+;base64,/, "");
     setimgTake(imageSrc);
 
-
+    
     var token = localStorage.getItem("tk");
     var requestOptions = {
       method: "POST",
